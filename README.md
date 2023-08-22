@@ -1,35 +1,27 @@
 # Mars Data Scraping and Analysis
 
+## Introduction
+In this multi-part activity, you'll be working with Jupyter Notebooks to scrape data from Mars-related websites and analyze the collected information. Here's what you'll do in each part:
+
 ## Part 1: Scrape Titles and Preview Text from Mars News
-Open the Jupyter Notebook in the starter code folder named part_1_mars_news.ipynb. You will work in this code as you follow the steps below to scrape the Mars News website.
-1. Use automated browsing to visit the Mars news siteLinks to an external site.. Inspect the page to identify which elements to scrape.
-2. Create a Beautiful Soup object and use it to extract text elements from the website.
-3. Extract the titles and preview text of the news articles that you scraped. 
+In the part_1_mars_news.ipynb notebook, you will:
+
+1. Utilize automated browsing to visit the Mars News website and inspect the page for scraping targets.
+2. Create a Beautiful Soup object to extract text elements from the website.
+3. Scrape titles and preview text of news articles from the site.
 
 ## Part 2: Scrape and Analyze Mars Weather Data
-Open the Jupyter Notebook in the starter code folder named part_2_mars_weather.ipynb. You will work in this code as you follow the steps below to scrape and analyze Mars weather data.
-1. Use automated browsing to visit the Mars Temperature Data SiteLinks to an external site.. Inspect the page to identify which elements to scrape.
-2. Create a Beautiful Soup object and use it to scrape the data in the HTML table. Note that this can also be achieved by using the Pandas read_html function. However, use Beautiful Soup here to continue sharpening your web scraping skills.
-3. Assemble the scraped data into a Pandas DataFrame. The columns should have the same headings as the table on the website. Here’s an explanation of the column headings:
-- id: the identification number of a single transmission from the Curiosity rover
-- terrestrial_date: the date on Earth
-- sol: the number of elapsed sols (Martian days) since Curiosity landed on Mars
-- ls: the solar longitude
-- month: the Martian month
-- min_temp: the minimum temperature, in Celsius, of a single Martian day (sol)
-- pressure: The atmospheric pressure at Curiosity's location
-4. Examine the data types that are currently associated with each column. If necessary, cast (or convert) the data to the appropriate datetime, int, or float data types.
-5. Analyze your dataset by using Pandas functions to answer the following questions:
-- How many months exist on Mars?
-- How many months exist on Mars?
-- How many Martian (and not Earth) days worth of data exist in the scraped dataset?
-- What are the coldest and the warmest months on Mars (at the location of Curiosity)? To answer this question:
- - Find the average minimum daily temperature for all of the months.
- - Plot the results as a bar chart.
-- Which months have the lowest and the highest atmospheric pressure on Mars? To answer this question:
- - Find the average daily atmospheric pressure of all the months.
- - Plot the results as a bar chart.
-- About how many terrestrial (Earth) days exist in a Martian year? To answer this question:
- - Consider how many days elapse on Earth in the time that Mars circles the Sun once.
- - Visually estimate the result by plotting the daily minimum temperature.
-6. Export the DataFrame to a CSV file. 
+In the part_2_mars_weather.ipynb notebook, your tasks include:
+
+1. Automate browsing to access the Mars Temperature Data Site and examine the page for scraping possibilities.
+2. Utilize Beautiful Soup to scrape data from an HTML table or use Pandas' read_html function for the same purpose.
+3. Construct a Pandas DataFrame to organize the scraped data, focusing on columns like id, terrestrial_date, sol, ls, month, min_temp, and pressure.
+4. Analyse the dataset using Pandas functions to answer various questions:
+ * Determine the number of months on Mars.
+ * Calculate Martian days of data in the dataset.
+ * Identify the coldest and warmest months on Mars by finding average minimum daily temperatures and plotting them.
+ * Determine the months with the lowest and highest atmospheric pressures on Mars by finding average daily atmospheric pressures and plotting them.
+ * Estimate the number of terrestrial (Earth) days in a Martian year by considering the time Mars takes to orbit the Sun and visualizing the daily minimum temperature trend.
+5. Export the DataFrame containing your analyzed data to a CSV file.
+
+This project will enhance your web scraping skills and allow you to uncover insights from Mars-related data sources. Dive into the notebooks and embark on your journey of exploring the Martian climate and news!'
