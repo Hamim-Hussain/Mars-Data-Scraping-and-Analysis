@@ -17,11 +17,11 @@ In the part_2_mars_weather.ipynb notebook, your tasks include:
 2. Utilize Beautiful Soup to scrape data from an HTML table or use Pandas' read_html function for the same purpose.
 3. Construct a Pandas DataFrame to organize the scraped data, focusing on columns like id, terrestrial_date, sol, ls, month, min_temp, and pressure.
 4. Analyse the dataset using Pandas functions to answer various questions:
- * Determine the number of months on Mars.
- * Calculate Martian days of data in the dataset.
- * Identify the coldest and warmest months on Mars by finding average minimum daily temperatures and plotting them.
- * Determine the months with the lowest and highest atmospheric pressures on Mars by finding average daily atmospheric pressures and plotting them.
- * Estimate the number of terrestrial (Earth) days in a Martian year by considering the time Mars takes to orbit the Sun and visualizing the daily minimum temperature trend.
+   * Determine the number of months on Mars.
+   * Calculate Martian days of data in the dataset.
+   * Identify the coldest and warmest months on Mars by finding average minimum daily temperatures and plotting them.
+   * Determine the months with the lowest and highest atmospheric pressures on Mars by finding average daily atmospheric pressures and plotting them.
+   * Estimate the number of terrestrial (Earth) days in a Martian year by considering the time Mars takes to orbit the Sun and visualizing the daily minimum temperature trend.
 5. Export the DataFrame containing your analyzed data to a CSV file.
 
 This project will enhance your web scraping skills and allow you to uncover insights from Mars-related data sources. Dive into the notebooks and embark on your journey of exploring the Martian climate and news!'
