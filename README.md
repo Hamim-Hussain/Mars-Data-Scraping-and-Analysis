@@ -9,6 +9,19 @@ Embarking on Mars data exploration! Using Jupyter Notebooks, I'll scrape Mars ne
 
 ## Findings
 
+1. How many months exist on Mars?
+
+   
+2. How many Martian (and not Earth) days worth of data exist in the scraped dataset
+
+   
+3. What are the coldest and the warmest months on Mars (at the location of Curiosity)? To answer this question:
+
+    
+4. Which months have the lowest and the highest atmospheric pressure on Mars? To answer this question:
+
+
+5. About how many terrestrial (Earth) days exist in a Martian year? To answer this question:
 
 
 ## Conclusion
